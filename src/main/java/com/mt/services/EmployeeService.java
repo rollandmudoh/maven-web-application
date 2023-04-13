@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping("/employee")
-public class EmployeeService {
+public class EmployeeService 
 
 	
 	@RequestMapping(value = "/getEmployeeDetails", method = RequestMethod.GET)
